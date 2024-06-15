@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music.css">
+    <script src="https://kit.fontawesome.com/f383284117.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="special">
+        <!-- <input type="color" id="color">     -->
+        
+    </div>
+   
+    <div class="container">
+    <div class="music">
+        <h1 style="color:rgb(242, 47, 53);background-color:beige;"><b>Music Player</b></h1>
+<nav>
+    <div class="circle">
+        <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <div class="circle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+<img src="music.jpg" class="imgsong" height="260px" width="260px">
+<h1 ><i>Srujan Akula</i></h1>
+
+<audio  id="song">
+    <source src="Chikago Nagarana (128 kbps).mp3" type="audio/mp3">
+</audio>
+<input type="range" value="0" id="progress" >
+<div class="control">
+    <div><i class="fa-solid fa-backward"></i></div>
+    <div onclick="playPause()"><i class="fa-solid fa-play" id="contrl"></i></div>
+
+<div><i class="fa-solid fa-forward"></i></div>
+</div>
+    </div>
+</div>
+<script src="music.js"></script>
+
+</body>
+</html>
